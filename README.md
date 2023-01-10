@@ -30,8 +30,18 @@ Developed by:
 RegisterNumber: 
 */
 ```
+```
+import numpy as np   #from numpy import array
+from scipy.linalg import lu
+arr=eval(input())
+A=np.array(arr)
+P,L,U=lu(A)
+print(L)
+print(U)
+```
 
 ## Output:
+![output](/Screenshot%20from%202023-01-10%2022-24-50.png)
 ![lu decomposition]()
 
 
